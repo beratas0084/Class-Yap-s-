@@ -16,11 +16,11 @@ namespace WindowsFormsApplication2
         {
             InitializeComponent();
         }
-        class Kado
+        class Berat
         {
             private int a, b;
 
-            public Kado(int a, int b)
+            public Berat(int a, int b)
             { 
             this.a =a;
             this.b = b;
@@ -33,8 +33,8 @@ namespace WindowsFormsApplication2
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            Kado KadoClass = new Kado(10, 20);
-            MessageBox.Show(KadoClass.topla().ToString());
+            Berat BeratClass = new Berat(10, 20);
+            MessageBox.Show(BeratClass.topla().ToString());
         }
     }
 }
